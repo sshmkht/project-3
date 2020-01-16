@@ -35,6 +35,13 @@
 			width: 100%;
 		}
 	}
+	.carousel {
+		.tns-item {
+			img {
+				width: 75%;
+			}
+		}
+	}
 }
 
 @media (max-width: 767px) {
@@ -103,6 +110,18 @@
 			font-size: 16px;
 		}
 	}
+	.carousel {
+		.tns-item {
+			img {
+				width: 85%;
+			}
+		}
+		button {
+			img {
+				width: 16px;
+			}
+		}
+	}
 }
 	
 @media (max-width: 350px) {
@@ -140,3 +159,4 @@
 		width: 276px;
 	}
 }
+

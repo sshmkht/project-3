@@ -36,6 +36,7 @@ font-style: normal;
 .container {
 	max-width: 950px;
 	margin: 0 auto;
+	position: relative;
 }
 
 @import "blocks/promo";
@@ -45,6 +46,7 @@ font-style: normal;
 @import "blocks/advantages";
 @import "blocks/consultation";
 @import "blocks/forms";
+@import "blocks/carousel";
 
 @import "media";
 
