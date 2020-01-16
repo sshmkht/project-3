@@ -41,17 +41,10 @@ font-style: normal;
 @import "blocks/promo";
 @import "blocks/header.scss";
 @import "blocks/buttons";
-
-.title {
-	font-size: 30px;
-	font-weight: 700;
-	text-align: center;
-	color: #0d0d0d;
-}
-
+@import "blocks/titles";
 @import "blocks/advantages";
-
-
+@import "blocks/consultation";
+@import "blocks/forms";
 
 @import "media";
 
