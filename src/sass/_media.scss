@@ -31,6 +31,7 @@
 		display: block;
 		margin: 0 auto;
 		margin-top: 25px;
+		text-align: center;
 		input {
 			width: 100%;
 		}
@@ -197,6 +198,15 @@
 		}
 		&__social {
 			margin-top: 18px;
+		}
+	}
+	.modal {
+		padding: 40px 10px;
+		width: 320px;
+		&__close {
+			top: 4px;
+			right: 5px;
+			font-size: 35px;
 		}
 	}
 }
