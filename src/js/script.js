@@ -119,6 +119,9 @@ document.querySelector('.next').addEventListener('click', function () {
     $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
     return false;
   });
+
+//reviews animation
+  new WOW().init();
 })(jQuery);
 
 
