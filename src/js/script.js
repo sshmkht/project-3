@@ -1,12 +1,12 @@
 // slider
 
 const slider = tns({
-    container: '.carousel__inner',
-    items: 1,
-    slideBy: 'page',
-    autoplay: false,
-    controls: false,
-    nav: false
+  container: '.carousel__inner',
+  items: 1,
+  slideBy: 'page',
+  autoplay: false,
+  controls: false,
+  nav: false
 });
 
 document.querySelector('.prev').addEventListener('click', function () {
@@ -101,6 +101,22 @@ document.querySelector('.next').addEventListener('click', function () {
 
       $('form').trigger('reset');
     });
+    return false;
+  });
+
+  //smooth scroll and pageup
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 1600) {
+      $('.pageup').fadeIn();
+    } else {
+      $('.pageup').fadeOut();
+    }
+  });
+
+
+  $("a[href^='#']").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
     return false;
   });
 })(jQuery);
