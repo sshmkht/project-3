@@ -124,10 +124,12 @@
             width: 50%;
             padding-right: 20px;
             transition: 0.4s all;
-            padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
             background-color: #fff;
+            ul {
+            	list-style-type: none;
+            	padding-left: 19px;
+            }
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
